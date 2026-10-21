@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int userAge = 22;
+        string userName = "Owen";
+		bool isSellingHighValueFruits = true;
+		double applePricePerKilo = 19.99;
+		string storeName = "A";
+
+		Console.WriteLine($"Hi, my name is {userName}, I am {userAge} years old. I bought an apple for a owen of {applePricePerKilo} per kilo. The name of the store is {storeName} and it is {isSellingHighValueFruits} for selling high-value fruits.");
+
+    }
+}
