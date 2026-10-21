@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+  static void Main ()
+  {
+    // 1. int: Stores whole numbers (integers) without decimals
+    int userAge = 18;
+    // 2. string: Stores a sequence of text characters inside double quotes
+    string userName = "Owen";
+    // 3. bool: Stores a true or false conditional state
+    bool isAccountActive = true;
+    // 4. double: Stores fractional nuumbers with decimal points
+    double accountBalance = 6969.69;
+
+    // Outputting the values to the console 
+    Console.Writeline("User Name: " + userName);
+    Console.Writeline("User Age: "  + userAge);
+    Console.Writeline("Active Status: " + isAccountActive);
+    Console.Writeline("Balance: $" + accountBalance);
