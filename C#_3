@@ -1,0 +1,41 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    // 1. Get Name
+    std::cout << "What is your name? ";
+    std::string name;
+    std::getline(std::cin, name);
+
+    // 2. Get Age
+    std::cout << "How old are you? ";
+    int age;
+    std::cin >> age;
+
+    // 3. Get Money
+    std::cout << "How much money do you have (e.g. 19.99)? ";
+    double price;
+    std::cin >> price;
+
+    // 4. Get Grade
+    std::cout << "What letter grade did you get in school (e.g A)? ";
+    char grade;
+    std::cin >> grade;
+
+    // 5. Get Student Status
+    std::cout << "Are you a student? (true/false) ";
+    std::string isStudent;
+    std::cin >> isStudent;
+
+    std::cout << "\n";
+
+    // 6. Final Clean Output
+    std::cout << "My name is " << name 
+              << ", I am " << age 
+              << " years old, I have " << price 
+              << " in my pocket, I got a " << grade 
+              << " in school, and it is " << isStudent 
+              << " that I am currently a student.\n";
+
+    return 0;
+}
